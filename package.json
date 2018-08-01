@@ -1,0 +1,19 @@
+{
+  "name": "react-graphql",
+  "version": "1.0.0",
+  "description": "apollo - graphql- react and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grkmkc/React-Graphql.git"
+  },
+  "author": "gorkem koc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grkmkc/React-Graphql/issues"
+  },
+  "homepage": "https://github.com/grkmkc/React-Graphql#readme"
+}
