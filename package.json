@@ -2,9 +2,10 @@
   "name": "react-graphql",
   "version": "1.0.0",
   "description": "apollo - graphql- react and express",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/grkmkc/React-Graphql/issues"
   },
-  "homepage": "https://github.com/grkmkc/React-Graphql#readme"
+  "homepage": "https://github.com/grkmkc/React-Graphql#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.1",
+    "mongoose": "^5.2.6",
+    "nodemon": "^1.18.3"
+  },
+  "devDependencies": {}
 }
